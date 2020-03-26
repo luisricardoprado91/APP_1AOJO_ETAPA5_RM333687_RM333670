@@ -1,0 +1,7 @@
+{
+  "name": "featurePagamento",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
