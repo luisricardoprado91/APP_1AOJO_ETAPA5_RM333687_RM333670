@@ -12,4 +12,6 @@ export class PaymentPage implements OnInit {
   ngOnInit() {
   }
 
+
+
 }

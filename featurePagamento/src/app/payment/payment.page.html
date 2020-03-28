@@ -1,9 +1,45 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>payment</ion-title>
+    <ion-title>Métodos de pagamento</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+
+ 
+  <ion-list>
+       <ion-item-group>
+      <ion-item-divider>
+        <ion-label><h2>Métodos de pagamento</h2></ion-label>
+      </ion-item-divider>
+
+      <ion-item href="pagamento-no-carro" lines="full">
+        <ion-label>Pagar no carro - débito</ion-label>
+        <button item-right (click)="your_function()"></button>
+      </ion-item>
+
+      <ion-item href="pagamento-qrcode" lines="inset">
+        <ion-label>QRCode</ion-label>
+        <button item-right (click)="your_function()"></button>
+      </ion-item>
+
+      <ion-item href="pagamento-adicionar" lines="undefined">
+        <ion-label>
+           <h2><ion-icon name="add-outline"></ion-icon> Adicionar método de pagamento</h2>
+          <p>Cartões de crédito ou débito/Paypal</p>
+        </ion-label>
+      </ion-item>
+
+      <ion-item-divider>
+        <ion-label><h2>Promoções</h2></ion-label>
+      </ion-item-divider>
+
+      <ion-item href="descontos" lines="none">
+        <ion-label>Descontos</ion-label>
+      </ion-item>
+
+
+    </ion-item-group>
+  </ion-list>
 </ion-content>
