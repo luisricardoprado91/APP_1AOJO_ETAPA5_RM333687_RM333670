@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>creditos-adicionar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-input placeholder="Insira o valor" type="number" [(ngModel)] = "barData"></ion-input>
+
+  <section>
+    <ion-button expand="block" (click) ="create()" >Gerar boleto</ion-button>
+  </section>
+  <ngx-barcode [bc-value]="createCode" [bc-display-value]="true"></ngx-barcode>
+
+  <ion-card *ngIf="createdCode">
+    <ngx-barcode [bc-value]="createdCode"></ngx-barcode>
+    <ion-card-content>
+    <p> Your QR Code: {{createdCode}}</p>
+    </ion-card-content>
+  </ion-card>
+    
+</ion-content>

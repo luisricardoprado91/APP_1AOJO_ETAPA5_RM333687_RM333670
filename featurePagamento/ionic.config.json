@@ -1,7 +1,7 @@
 {
   "name": "featurePagamento",
   "integrations": {
-    "capacitor": {}
+    "cordova": {}
   },
   "type": "angular"
 }
