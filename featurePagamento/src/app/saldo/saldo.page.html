@@ -1,9 +1,13 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>saldo</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Saldo</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content >
+  <ion-label>Saldo atual</ion-label>
+  <ion-label th:action="@{/cliente/saldo}" thobject="${id}" method="get"><p>{saldoAtual}</p></ion-label>
 </ion-content>
