@@ -23,7 +23,8 @@ const routes: Routes = [
   {
     path: 'creditos-adicionar',
     loadChildren: () => import('./creditos-adicionar/creditos-adicionar.module').then( m => m.CreditosAdicionarPageModule)
-  },
+  }
+  
 ];
 
 @NgModule({

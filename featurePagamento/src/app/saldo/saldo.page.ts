@@ -6,10 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./saldo.page.scss'],
 })
 export class SaldoPage implements OnInit {
-
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
-}
+  }
