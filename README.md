@@ -1,4 +1,4 @@
-# MS_1AOJO_ETAPA5_RM333687_RM333670
+# APP_1AOJO_ETAPA5_RM333687_RM333670
 Repositório para desenvolvimento do pojeto do MBA em Engenharia de Software
 # Participantes do projeto 
 ```
