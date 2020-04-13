@@ -10,6 +10,6 @@ Tiago Salamoni Dallabrida - RM 333670
 $ cd APP_1AOJO_ETAPA5_RM333687_RM333670
 $ cd featurePagamento
 $ npm install
-$ npm build
+$ npm run-script build
 $ ionic serve
 ```
